@@ -30,6 +30,8 @@
               name="user-full-name"
               id="user-full-name"
               placeholder="Full Name"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              required
           /></label>
           <label for="user-email"
             ><input
@@ -38,6 +40,8 @@
               name="user-email"
               id="user-email"
               placeholder="Email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              required
           /></label>
           <label for="user-commit">
             <textarea
