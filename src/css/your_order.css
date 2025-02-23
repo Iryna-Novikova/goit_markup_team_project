@@ -134,7 +134,8 @@
 .order-social-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 23px;
+  column-gap: 23px;
+  row-gap: 8px;
 }
 .order-social-items .current {
   display: flex;
