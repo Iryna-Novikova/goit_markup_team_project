@@ -1,0 +1,108 @@
+.header {
+  margin-top: 20px;
+  margin-bottom: 48px;
+}
+
+.header .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: green;
+}
+
+.header-logo-icon {
+  fill: #fff;
+  width: 168px;
+  height: 16px;
+}
+.header-nav,
+.header-shop-btn {
+  display: none;
+}
+
+.header-burger-btn {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+
+.header-burger-icon {
+  fill: black;
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .header {
+    margin-top: 32px;
+  }
+
+  .header-logo-icon {
+    width: 216px;
+    height: 20px;
+  }
+
+  .header-burger-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .header-burger-btn {
+    display: none;
+  }
+
+  .header {
+    margin-bottom: 148px;
+  }
+
+  .header-nav {
+    display: flex;
+    margin-right: 20px;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .nav-link {
+    display: flex;
+    padding: 12px;
+    border: 1px solid #fff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    white-space: nowrap;
+
+    line-height: 1.25;
+    font-family: 'Inter Tight', sans-serif;
+    text-transform: capitalize;
+  }
+
+  .header-shop-btn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 16px 32px;
+    border-radius: 30px;
+    border: none;
+    white-space: nowrap;
+
+    background-color: #7a3145;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    font-family: 'Inter Tight', sans-serif;
+  }
+
+  .header .logo {
+    margin-right: 366px;
+  }
+}
