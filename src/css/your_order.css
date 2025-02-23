@@ -191,3 +191,118 @@
   text-transform: uppercase;
   color: #fbfbfb;
 }
+@media only screen and (min-width: 768px) {
+  .order {
+    padding: 100px 0;
+    max-width: 768px;
+  }
+  .order-container-title {
+    margin-bottom: 52px;
+  }
+
+  .order-title {
+    font-size: 64px;
+    line-height: 1;
+    margin-bottom: 24px;
+  }
+  .order-subtitle {
+    font-size: 16px;
+    line-height: 1.25;
+    max-width: 640px;
+  }
+  .order-container-form {
+    padding: 72px 100px;
+    min-width: 640px;
+    height: 632px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
+
+  .order-container-form-text-title {
+    font-size: 32px;
+    margin: 0 auto;
+    margin-bottom: 52px;
+    min-width: 440px;
+  }
+  .order-input-name {
+    height: 52px;
+  }
+  .order-input-email {
+    height: 52px;
+  }
+  .order-textarea-commit {
+    height: 96px;
+  }
+  .order-container-img {
+    padding: 52px;
+    min-width: 640px;
+    height: 528px;
+    margin: 0 auto;
+  }
+  .order-img-all {
+    min-width: 536px;
+  }
+  .order-container-img-links {
+    margin-bottom: 52px;
+  }
+  .order-social-txt {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 16px;
+  }
+  .order-social-list {
+    column-gap: 32px;
+  }
+  .order-social-items .current::after {
+    right: -20px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .order {
+    padding: 100px 0;
+    margin: 0 auto;
+    max-width: 1280px;
+  }
+  .order-title {
+    max-width: 751px;
+  }
+
+  .order-subtitle {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  .order-container-form {
+    padding: 52px 48px;
+    min-width: 524px;
+    height: 592px;
+  }
+  .order-container-main {
+    display: flex;
+    column-gap: 32px;
+  }
+  .order-container-form-text-title {
+    max-width: 428px;
+  }
+  .order-container-img {
+    padding: 52px 48px;
+    min-width: 524px;
+    height: 592px;
+  }
+  .order-btn-form:hover,
+  .order-btn-form:focus {
+    background-color: #d4bfc4;
+    color: #7a3145;
+  }
+  .order-img-all {
+    min-width: 428px;
+  }
+  .order-container-img-links {
+    margin-bottom: 80px;
+  }
+  .order-social-list {
+    column-gap: 31px;
+  }
+  .order-social-items .current::after {
+    bottom: 0;
+  }
+}
