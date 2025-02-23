@@ -1,1 +1,169 @@
+.footer {
+  background-color: #652d3c;
+  padding: 40px 20px;
+}
+.footer-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: auto;
+  gap: 40px;
+}
+.logo-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 14px;
+}
+.slogan {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  max-width: 335px;
+}
+.logo-svg {
+  fill: #fff;
+}
+.footer-rights-side {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+.footer-nav {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+.footer-nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 14px;
+}
+.contacts {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.43;
+  gap: 14px;
+  max-width: 215px;
+}
+.footer-bottom {
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #d4bfc4;
+  gap: 16px;
+}
+.copyright {
+  margin-top: 16px;
+}
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+  .footer {
+    padding: 32px;
+  }
+  .footer-content {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .slogan {
+    max-width: 265px;
+  }
+  .footer-rights-side {
+    gap: 64px;
+  }
+  .footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .footer-links {
+    white-space: nowrap;
+  }
+  .copyright {
+    margin-left: auto;
+  }
+}
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 100px;
+  }
+  .footer {
+    padding: 52px 100px;
+  }
 
+  .footer-rights-side {
+    flex-direction: row;
+    gap: 120px;
+  }
+}
+
+/* Ховер та фокус ефекти для посилань */
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover,
+a:focus {
+  color: #3cbc81;
+}
+
+/* Анімація логотипу */
+.logo-svg {
+  transition: transform 0.5s ease, fill 0.5s ease;
+}
+.logo-svg:hover {
+  transform: scale(1.1);
+  fill: #3cbc81;
+}
+.footer-nav-links a,
+.contacts a:hover {
+  transform: scale(1.1);
+  fill: #3cbc81;
+}
+
+/* Підсвітка тексту */
+.footer-nav-links a,
+.contacts a {
+  position: relative;
+  display: inline-block;
+}
+.footer-nav-links a::after,
+.contacts a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: #3cbc81;
+  transition: width 0.3s ease;
+}
+
+.footer-nav-links a:hover::after,
+.contacts a:hover::after {
+  width: 100%;
+}
