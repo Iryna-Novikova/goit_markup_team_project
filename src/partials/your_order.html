@@ -12,52 +12,53 @@
       </p>
     </div>
     <div class="order-container-main">
-      <div class="order-container-form">
-        <div class="order-container-form-text">
-          <p class="order-container-form-text-title">
-            Ordering <span class="order-form-span-red">from us</span> is quick
-            and easy! Fill out
-            <span class="order-form-span-green">the form</span>
-            below and we will contact you !
-          </p>
+      <div class="order-container-main">
+        <div class="order-container-form">
+          <div class="order-container-form-text">
+            <p class="order-container-form-text-title">
+              Ordering <span class="order-form-span-red">from us</span> is quick
+              and easy! Fill out
+              <span class="order-form-span-green">the form</span>
+              below and we will contact you !
+            </p>
+          </div>
+          <div class="order-container-input">
+            <form class="order-form">
+              <label
+                ><input
+                  class="order-input-name"
+                  type="text"
+                  name="user-full-name"
+                  id="user-full-name"
+                  placeholder="Full Name"
+                  pattern="^[a-zA-Z0-9](?!.*[_.]{2})[a-zA-Z0-9._]{1,14}[a-zA-Z0-9]$"
+                  required
+                />
+              </label>
+              <label for="user-email"
+                ><input
+                  class="order-input-email"
+                  type="email"
+                  name="user-email"
+                  id="user-email"
+                  placeholder="Email"
+                  pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                  required
+                />
+              </label>
+              <label>
+                <textarea
+                  class="order-textarea-commit"
+                  name="user-commit"
+                  id="user-commit"
+                  placeholder="Comment"
+                ></textarea>
+              </label>
+              <button class="order-btn-form" type="submit">Send</button>
+            </form>
+          </div>
         </div>
-        <div class="order-container-input">
-          <form class="order-form">
-            <label
-              ><input
-                class="order-input-name"
-                type="text"
-                name="user-full-name"
-                id="user-full-name"
-                placeholder="Full Name"
-                pattern="^[a-zA-Z0-9](?!.*[_.]{2})[a-zA-Z0-9._]{1,14}[a-zA-Z0-9]$"
-                required
-              />
-            </label>
-            <label for="user-email"
-              ><input
-                class="order-input-email"
-                type="email"
-                name="user-email"
-                id="user-email"
-                placeholder="Email"
-                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-                required
-              />
-            </label>
-            <label>
-              <textarea
-                class="order-textarea-commit"
-                name="user-commit"
-                id="user-commit"
-                placeholder="Comment"
-              ></textarea>
-            </label>
-            <button class="order-btn-form" type="submit">Send</button>
-          </form>
-        </div>
-      </div>
-      <div class="order-container-img">
+
         <div class="order-container-img-links">
           <div class="order-img">
             <picture>
@@ -83,7 +84,6 @@
                 "
               />
               <img
-                class="order-img-all"
                 src="/img/your_order/pic-sec-order-desk-1x.webp"
                 alt="nutrition-food"
                 width="352"
@@ -96,7 +96,7 @@
           <ul class="order-social-list">
             <li class="order-social-items">
               <a
-                class="order-social-items-link current"
+                class="order-social-items-link"
                 href="https://www.instagram.com/goitclub/"
                 target="_blank"
                 >instagram</a
@@ -104,7 +104,7 @@
             </li>
             <li class="order-social-items">
               <a
-                class="order-social-items-link current"
+                class="order-social-items-link"
                 href="https://www.facebook.com/goITclub/"
                 target="_blank"
                 >facebook</a
