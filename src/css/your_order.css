@@ -3,6 +3,7 @@
   background-color: #576f35;
   max-width: 375px;
 }
+
 .order-container-title {
   margin-bottom: 40px;
 }
@@ -32,8 +33,7 @@
   background-color: #fbfbfb;
   margin-bottom: 20px;
 }
-.order-container-form-text {
-}
+
 .order-container-form-text-title {
   font-weight: 600;
   font-size: 27px;
@@ -50,10 +50,7 @@
 .order-form-span-green {
   color: #576f35;
 }
-.order-container-input {
-}
-.order-form {
-}
+
 .order-input-name {
   border: 1px solid #858585;
   border-radius: 30px;
@@ -153,10 +150,7 @@
 .order-container-img-links {
   margin-bottom: 20px;
 }
-.order-img {
-}
-.order-container-social {
-}
+
 .order-social-txt {
   font-weight: 700;
   font-size: 14px;
