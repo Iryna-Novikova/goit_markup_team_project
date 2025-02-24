@@ -62,3 +62,52 @@ color: #141414;
 .content-descr {
 margin-bottom: 12px;
 }
+
+@media screen and (min-width:768px) {
+.vegetables {
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+.veg-titel {
+font-size: 64px;
+line-height: 100%;
+max-width: 508px;
+margin-bottom: 24px;
+}
+
+.veg-descr {
+font-size: 16px;
+line-height: 125%;
+max-width: 626px;
+margin-bottom: 52px;
+}
+
+.veg-list {
+row-gap: 24px;
+column-gap: 28px;
+}
+
+.veg-list-item {
+padding: 32px 30px;
+width: calc((100% - 24px) / 2);
+max-height: 380px;
+}
+
+.veg-list-title {
+font-size: 32px;
+}
+
+.veg-list-descr {
+font-size: 16px;
+line-height: 125%;
+}
+}
+
+
+@media screen and (min-width:1280px) {
+.veg-list-item {
+padding: 32px;
+width: calc((100% - 24px) / 3);
+}
+}
