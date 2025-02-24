@@ -103,3 +103,33 @@
     background-color: #fbfbfb;
     color: #7a3145;
 }
+
+@media (min-width: 768px) {
+    .backdrop {
+        background-color: rgba(20, 20, 20, 0.4);
+    }
+
+    .modal-burger-menu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: auto;
+        width: 350px;
+    }
+
+    .modal-close-btn {
+        top: 32px;
+        right: 32px;
+    }
+    
+    .modal-close-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .mob-menu-link {
+        width: 118px;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+}
