@@ -1,6 +1,8 @@
 .header {
   margin-top: 20px;
   margin-bottom: 48px;
+
+  background-color: green;
 }
 
 .header .container {
@@ -8,12 +10,15 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
 
-  background-color: green;
+.logo-link {
+  display: flex;
+  align-items: center;
 }
 
 .header-logo-icon {
-  fill: #fff;
+  fill: #fbfbfb;
   width: 168px;
   height: 16px;
 }
@@ -29,13 +34,14 @@
 }
 
 .header-burger-icon {
-  fill: black;
+  fill: none;
+  stroke: #fbfbfb;
+  display: block;
   width: 32px;
   height: 32px;
-  display: block;
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .header {
     margin-top: 32px;
   }
@@ -51,7 +57,7 @@
   }
 }
 
-@media (min-width: 1280px) {
+@media only screen and (min-width: 1280px) {
   .header-burger-btn {
     display: none;
   }
@@ -75,14 +81,31 @@
     display: flex;
     padding: 12px;
     border: 1px solid #fff;
+    border-radius: 12px;
     justify-content: center;
     align-items: center;
-    border-radius: 12px;
-    white-space: nowrap;
 
     line-height: 1.25;
     font-family: 'Inter Tight', sans-serif;
     text-transform: capitalize;
+
+    box-sizing: border-box;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .nav-link:hover {
+    background-color: #d4bfc4;
+    color: #7a3145;
+    border: 1px solid #d4bfc4;
+  }
+
+  .nav-link:focus {
+    background-color: #fbfbfb;
+    color: #7a3145;
+    border: 1px solid #fff;
   }
 
   .header-shop-btn {
@@ -92,7 +115,6 @@
     padding: 16px 32px;
     border-radius: 30px;
     border: none;
-    white-space: nowrap;
 
     background-color: #7a3145;
     color: #fff;
@@ -100,9 +122,21 @@
     line-height: 1.1;
     text-transform: uppercase;
     font-family: 'Inter Tight', sans-serif;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .header-shop-btn:hover {
+    background-color: #d4bfc4;
+    color: #7a3145;
+  }
+
+  .header-shop-btn:focus {
+    background-color: #fbfbfb;
+    color: #7a3145;
   }
 
   .header .logo {
-    margin-right: 366px;
+    margin-right: auto;
   }
 }
