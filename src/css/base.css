@@ -2,6 +2,8 @@ body {
   font-family: 'Inter Tight', 'Roboto', sans-serif;
   color: #fbfbfb;
   font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
 }
 
 .visually-hidden {
