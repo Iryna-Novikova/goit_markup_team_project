@@ -1,8 +1,8 @@
 .header {
-  margin-top: 20px;
-  margin-bottom: 48px;
+  z-index: 10;
 
-  background-color: green;
+  position: relative;
+  top: 20px;
 }
 
 .header .container {
@@ -43,7 +43,7 @@
 
 @media only screen and (min-width: 768px) {
   .header {
-    margin-top: 32px;
+    top: 32px;
   }
 
   .header-logo-icon {
@@ -60,10 +60,6 @@
 @media only screen and (min-width: 1280px) {
   .header-burger-btn {
     display: none;
-  }
-
-  .header {
-    margin-bottom: 148px;
   }
 
   .header-nav {
