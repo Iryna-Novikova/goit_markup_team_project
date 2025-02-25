@@ -179,7 +179,7 @@
     padding: 100px 0;
     max-width: 768px;
   }
-  .order-container-title {
+  .order-container-form-text {
     margin-bottom: 52px;
   }
   .order-title {
@@ -202,7 +202,7 @@
   .order-container-form-text-title {
     font-size: 32px;
     margin: 0 auto;
-    margin-bottom: 52px;
+    /* margin-bottom: 52px; */
     min-width: 440px;
   }
   .order-input-name {
