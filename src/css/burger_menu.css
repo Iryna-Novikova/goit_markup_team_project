@@ -42,6 +42,7 @@
     position: absolute;
     top: 20px;
     right: 20px;
+    padding: 0;
 }
 
 .modal-close-icon {
@@ -68,7 +69,7 @@
 
     border: 1px solid #fbfbfb;
     border-radius: 12px;
-    width: 114px;
+    width: 118px;
     height: 44px;
     background-color: transparent;
     white-space: nowrap;
@@ -128,8 +129,14 @@
     }
 
     .mob-menu-link {
-        width: 118px;
+        width: 122px;
         font-size: 16px;
         line-height: 1.25;
+    }
+}
+
+@media (min-width: 1280px){
+    .backdrop {
+        display: none;
     }
 }
