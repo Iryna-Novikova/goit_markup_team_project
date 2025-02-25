@@ -1,0 +1,113 @@
+.hero {
+    background: #576f35;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+    .hero {
+        gap: 52px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .hero {
+        flex-direction: row;
+    }
+}
+
+.container.hero-cont-text {
+    padding-top: 100px;
+}
+
+@media only screen and (min-width: 768px) {
+    .container.hero-cont-text {
+        padding-top: 120px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 24px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .container.hero-cont-text {
+        width: 50%;
+        gap: 128px;
+        padding-top: 232px;
+    }
+}
+
+.hero-h {
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+}
+
+@media only screen and (min-width: 768px) {
+    .hero-h {
+        font-size: 76px;
+    }
+}
+
+.hero-p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.42;
+    color: #fbfbfb;
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .hero-p {
+        font-size: 16px;
+        line-height: 1.25;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .hero-p {
+        padding-bottom: 52px;
+    }
+}
+
+.hero-div-images {
+    background-image: url("/img/hero/barrow-mobile-1x-min.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 375px;
+    height: 372px;
+}
+
+@media only screen and (min-width: 768px) {
+    .hero-div-images {
+        background-image: url(/img/hero/barrow-tablet-1x-min.webp);
+        width: 768px;
+        height: 536px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .hero-div-images {
+        background-image: url(/img/hero/barrow-desk-1x-min.webp);
+        width: 50%;
+        min-height: 796px ;
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero-div-images {
+        background-image: url(/img/hero/barrow-desk@2x-min.webp);
+    }
+}
