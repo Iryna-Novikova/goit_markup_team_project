@@ -69,3 +69,23 @@
     padding-right: 7px;
     padding-left: 7px;
 }
+
+@media only screen and (min-width: 768px) {
+    .review {
+        background-color: #FBFBFB;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .title_rew {
+        display: block;
+        margin-bottom: 52px;
+        padding-right: 151px;
+    }
+
+    .head_review {
+    font-size: 64px;
+    line-height: 100%;
+    margin-bottom: 24px;
+    }
+}
