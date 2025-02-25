@@ -167,7 +167,6 @@ a:focus {
   width: 100%;
 }
 
-/* Виправлення анімації для посилань, щоб вони не виходили за межі контейнера */
 .footer-nav-links a,
 .contacts a {
   transition: color 0.3s ease, transform 0.3s ease;
@@ -176,5 +175,5 @@ a:focus {
 .footer-nav-links a:hover,
 .contacts a:hover {
   color: #3cbc81;
-  transform: none; /* Видаляємо масштабування */
+  transform: none;
 }
