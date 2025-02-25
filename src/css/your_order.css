@@ -10,10 +10,9 @@
 .order-title {
   font-weight: 600;
   font-size: 48px;
-  line-height: 1.03;
+  line-height: 1.08;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  color: #fbfbfb;
   margin-bottom: 20px;
 }
 .order-title-span {
@@ -23,13 +22,11 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.47;
-  color: #fbfbfb;
 }
 .order-container-form {
   border-radius: 30px;
   padding: 40px 20px;
   max-width: 335px;
-  height: 552px;
   background-color: #fbfbfb;
   margin-bottom: 20px;
 }
