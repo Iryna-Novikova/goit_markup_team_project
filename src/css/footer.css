@@ -54,7 +54,7 @@
   flex-direction: column;
   font-weight: 700;
   gap: 14px;
-  /* max-width: 215px; */
+  max-width: 180px;
 }
 .footer-bottom {
   display: block;
@@ -83,6 +83,7 @@
   }
   .slogan {
     max-width: 265px;
+    font-size: 16px;
   }
   .footer-rights-side {
     gap: 64px;
@@ -91,6 +92,9 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+  }
+  .contacts {
+    font-size: 16px;
   }
   .copyright {
     margin-left: auto;
