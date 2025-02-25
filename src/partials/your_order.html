@@ -30,7 +30,7 @@
                 name="user-full-name"
                 id="user-full-name"
                 placeholder="Full Name"
-                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                pattern="[A-Za-zА-Яа-яЁёІіЇїЄєҐґ'\- ]{2,30}"
                 required
             /></label>
             <label for="user-email"
@@ -58,7 +58,7 @@
       <div class="order-container-img">
         <div class="order-container-img-links">
           <div class="order-img">
-            <picture>
+            <picture class="order-img-all-picture">
               <source
                 media="(min-width: 1280px )"
                 srcset="
@@ -73,6 +73,7 @@
                   /img/your_order/pic-sec-order-tab-2x.webp 2x
                 "
               />
+
               <source
                 media="(max-width: 767px)"
                 srcset="
@@ -81,7 +82,6 @@
                 "
               />
               <img
-                class="order-img-all"
                 src="/img/your_order/pic-sec-order-desk-1x.webp"
                 alt="nutrition-food"
                 width="352"
