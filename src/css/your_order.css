@@ -101,12 +101,13 @@
   color: inherit;
   border: transparent;
   text-align: center;
-  transition: background-color color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .order-btn-form:active,
 .order-btn-form:focus {
   background-color: #fbfbfb;
   color: #7a3145;
+  border: transparent;
 }
 
 .order-container-img {
@@ -187,7 +188,6 @@
   .order-container-form-text-title {
     font-size: 32px;
     margin: 0 auto;
-    /* margin-bottom: 52px; */
     min-width: 440px;
   }
   .order-input-name {
@@ -199,6 +199,7 @@
   .order-textarea-commit {
     height: 96px;
   }
+
   .order-container-img {
     padding: 52px;
     min-width: 640px;
@@ -254,9 +255,15 @@
   .order-social-items-link:hover {
     color: #576f35;
   }
-  .order-btn-form:hover,
-  .order-btn-form:focus {
+  .order-btn-form {
+    transition: color, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .order-btn-form:hover {
     background-color: #d4bfc4;
+    color: #7a3145;
+  }
+  .order-btn-form:focus {
+    background-color: #fbfbfb;
     color: #7a3145;
   }
   .order-img-all {
