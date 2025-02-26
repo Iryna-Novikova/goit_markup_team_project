@@ -91,13 +91,13 @@
   .footer-links {
     margin-bottom: 0px;
   }
+  .contacts {
+    font-size: 16px;
+  }
   .footer-bottom {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-  .copyright {
-    margin-left: auto;
   }
 }
 /* Styles for Desktop devices */
