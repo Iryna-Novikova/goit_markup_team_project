@@ -17,9 +17,7 @@
 .order-title-span {
   color: #d4bfc4;
 }
-.order-subtitle {
-  line-height: 1.47;
-}
+
 .order-container-form {
   border-radius: 30px;
   padding: 40px 20px;
@@ -45,19 +43,17 @@
 .order-form-span-green {
   color: #576f35;
 }
-
+.order-label {
+  margin-bottom: 16px;
+}
 .order-input-name {
   border: 1px solid #858585;
   border-radius: 30px;
   padding: 14px 16px;
   width: 100%;
   height: 48px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.47;
   color: #141414;
   outline: none;
-  margin-bottom: 16px;
 }
 
 .order-input-email {
@@ -66,12 +62,8 @@
   padding: 14px 16px;
   width: 100%;
   height: 48px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.47;
   color: #141414;
   outline: none;
-  margin-bottom: 16px;
 }
 .order-input-email:focus,
 .order-input-name:focus {
@@ -85,7 +77,9 @@
 .order-input-email:not(:placeholder-shown):invalid {
   border-color: #e74a3b;
 }
-
+.order-label-textarea {
+  margin-bottom: 20px;
+}
 .order-textarea-commit {
   border: 1px solid #858585;
   border-radius: 15px;
@@ -95,7 +89,6 @@
   resize: none;
   color: #141414;
   outline: none;
-  margin-bottom: 20px;
 }
 .order-textarea-commit:focus {
   border-color: #858585;
@@ -114,7 +107,7 @@
   color: inherit;
   border: transparent;
   text-align: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .order-btn-form:active,
 .order-btn-form:focus {
