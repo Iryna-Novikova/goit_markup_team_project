@@ -1,0 +1,125 @@
+.review{
+    background-color:#FBFBFB;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.title_rew{
+    display: block;
+    margin-bottom: 40px;
+    width:100%
+}
+.review_card .card {
+    display: none;
+}
+
+.review_card .card:first-child {
+    display: block;
+}
+
+.head_review{
+    font-size: 48px;
+    line-height: 108%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #141414;
+    margin-bottom: 20px;
+}
+
+.custommers{
+    color: #576F35;
+}
+
+.words{
+    color: #141414;
+}
+
+.review_card{
+    display:flex;
+}
+
+.card{
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #D4BFC4;
+    border-radius: 24px;
+    padding: 20px 16px;
+}
+
+.foto{
+    justify-self: center;
+    border-radius: 50%;
+}
+
+.reviewer_name{
+    font-size: 18px;
+    line-height: 111%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #141414;
+    margin-bottom: 8px;
+    padding-top: 24px;
+}
+
+.comment{
+    text-align: center;
+    color:#858585;
+}
+
+@media only screen and (min-width: 768px) {
+    .review {
+        background-color: #FBFBFB;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .title_rew {
+        display: block;
+        margin-bottom: 52px;
+        padding-right: 151px;
+    }
+
+    .head_review {
+        font-size: 64px;
+        line-height: 100%;
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+        margin-bottom: 24px;
+    }
+
+    .card {
+        padding: 20px 20px;
+    }
+
+    .review_card {
+        display: flex;
+        gap: 24px;
+    }
+    
+    .review_card .card:nth-child(-n+2) {
+        display: block;
+
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .title_rew {
+        padding-right: 527px;
+    }
+
+    .review_card .card {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:374px) {
+    .head_review {
+        font-size: 44px;
+        letter-spacing: -0.01em;
+        }
+    .words {
+        font-size: 12px;
+    }
+}
