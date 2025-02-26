@@ -47,16 +47,12 @@
     padding: 20px 16px;
 }
 
-.reviewer{
-    text-align: center;
-}
 .foto{
     justify-self: center;
     border-radius: 50%;
-
 }
-.reviewer_name{
 
+.reviewer_name{
     font-size: 18px;
     line-height: 111%;
     letter-spacing: -0.01em;
