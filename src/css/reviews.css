@@ -32,16 +32,12 @@
 }
 
 .words{
-    font-size: 14px;
-    line-height: 143%;
     color: #141414;
 }
 
 .review_card{
     display:flex;
 }
-
-
 
 .card{
     box-sizing: border-box;
