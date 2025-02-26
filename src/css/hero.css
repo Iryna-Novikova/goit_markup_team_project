@@ -1,0 +1,140 @@
+.hero {
+    background: #576F35;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0;
+}
+
+.hero-cont-text {
+    padding: 100px 40px 20px;
+    max-width: 375px;
+    min-width: 320px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
+@media only screen and (min-width: 1280px) {
+    .hero {
+        flex-direction: row;
+        gap: 0;
+        flex-wrap: nowrap;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .hero-cont-text {
+        padding: 120px 32px 52px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 24px;
+        max-width: 768px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .hero-cont-text {
+        width: 50%;
+        padding: 232px 36px 52px 100px;
+        max-width: 1280;
+    }
+}
+
+.hero-h {
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .hero-h {
+        font-size: 44px;
+    }
+
+    .hero-cont-text {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .hero-p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .hero-h {
+        font-size: 76px;
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .hero-p {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+}
+
+.hero-div-images {
+    background-image: url('/img/hero/barrow-mobile-1x-min.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 320px;
+    max-width: 375px;
+    width: 100%;
+    min-height: 372px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) {
+@media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero-div-images {
+            background-image: url(/img/hero/barrow-mobile@2x-min.webp);
+        }
+    }
+}
+@media only screen and (min-width: 768px) {
+    .hero-div-images {
+        background-image: url(/img/hero/barrow-tablet-1x-min.webp);
+        max-width: 768px;
+        width: 100%;
+        min-height: 536px;
+    }
+
+    @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero-div-images {
+            background-image: url(/img/hero/barrow-tablet@2x-min.webp);
+        }
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .hero-div-images {
+        background-image: url(/img/hero/barrow-desk-1x-min.webp);
+        width: 50%;
+        min-height: 796px;
+        max-width: 1280px;
+        height: 100%;
+    }
+
+    @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero-div-images {
+            background-image: url(/img/hero/barrow-desk@2x-min.webp);
+        }
+    }
+}
