@@ -101,7 +101,8 @@
   color: inherit;
   border: transparent;
   text-align: center;
-  transition: color, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .order-btn-form:active,
 .order-btn-form:focus {
@@ -256,7 +257,9 @@
     color: #576f35;
   }
   .order-btn-form {
-    transition: color, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    outline: transparent;
   }
   .order-btn-form:hover {
     background-color: #d4bfc4;
@@ -265,6 +268,7 @@
   .order-btn-form:focus {
     background-color: #fbfbfb;
     color: #7a3145;
+    border: 1px solid #7a3145;
   }
   .order-img-all {
     min-width: 428px;
