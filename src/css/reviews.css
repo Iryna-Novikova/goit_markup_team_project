@@ -8,8 +8,19 @@
     display: block;
     margin-bottom: 40px;
 }
+.review_card .card {
+    display: none;
+}
+
+.review_card .card:first-child {
+    display: block;
+}
 
 .head_review{
+    font-size: 48px;
+    line-height: 108%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
     color: #141414;
     margin-bottom: 20px;
 }
@@ -19,6 +30,8 @@
 }
 
 .words{
+    font-size: 14px;
+    line-height: 143%;
     color: #141414;
 }
 
@@ -26,9 +39,7 @@
     display:flex;
 }
 
-.review_card .card:not(:first-child) {
-    display: none;
-}
+
 
 .card{
     box-sizing: border-box;
@@ -49,7 +60,7 @@
 
 }
 .reviewer_name{
-    font-weight: 600;
+
     font-size: 18px;
     line-height: 111%;
     letter-spacing: -0.01em;
@@ -84,8 +95,29 @@
     }
 
     .head_review {
-    font-size: 64px;
-    line-height: 100%;
-    margin-bottom: 24px;
+        font-size: 64px;
+        line-height: 100%;
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+        margin-bottom: 24px;
+    }
+    .review_card {
+        display: flex;
+        gap: 24px;
+    }
+    
+    .review_card .card:nth-child(-n+2) {
+        display: block;
+
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .title_rew {
+        padding-right: 527px;
+    }
+
+    .review_card .card {
+        display: block;
     }
 }
