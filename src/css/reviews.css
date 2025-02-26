@@ -7,6 +7,8 @@
 .title_rew{
     display: block;
     margin-bottom: 40px;
+    width:100%
+
 }
 .review_card .card {
     display: none;
@@ -43,8 +45,7 @@
 
 .card{
     box-sizing: border-box;
-    min-width: 335px;
-    min-height: 228px;
+    width: 100%;
     border: 1px solid #D4BFC4;
     border-radius: 24px;
     padding: 20px 16px;
@@ -119,5 +120,15 @@
 
     .review_card .card {
         display: block;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:374px) {
+    .head_review {
+        font-size: 44px;
+        letter-spacing: -0.01em;
+        }
+    .words {
+        font-size: 12px;
     }
 }
