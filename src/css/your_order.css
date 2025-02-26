@@ -239,6 +239,7 @@
     padding: 52px 48px;
     min-width: 524px;
     height: 592px;
+    margin-bottom: 0;
   }
   .order-container-main {
     display: flex;
