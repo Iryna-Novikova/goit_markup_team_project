@@ -8,7 +8,6 @@
     display: block;
     margin-bottom: 40px;
     width:100%
-
 }
 .review_card .card {
     display: none;
@@ -40,6 +39,7 @@
 }
 
 .card{
+    text-align: center;
     box-sizing: border-box;
     width: 100%;
     border: 1px solid #D4BFC4;
@@ -48,8 +48,7 @@
 }
 
 .reviewer{
-    padding-right: 16.5px;
-    padding-left: 16.5px;
+    text-align: center;
 }
 .foto{
     justify-self: center;
@@ -69,13 +68,8 @@
 }
 
 .comment{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 143%;
     text-align: center;
     color:#858585;
-    padding-right: 7px;
-    padding-left: 7px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -98,6 +92,11 @@
         text-transform: uppercase;
         margin-bottom: 24px;
     }
+
+    .card {
+        padding: 20px 20px;
+    }
+
     .review_card {
         display: flex;
         gap: 24px;
