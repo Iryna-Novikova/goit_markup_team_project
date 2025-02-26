@@ -160,7 +160,7 @@
 
 .order-social-items-link:focus,
 .order-social-items-link:active {
-  color: #576f35;
+  color: #3cbc81;
 }
 @media only screen and (min-width: 768px) {
   .order {
@@ -255,7 +255,7 @@
   }
   .order-social-items-link:focus,
   .order-social-items-link:hover {
-    color: #576f35;
+    color: #3cbc81;
   }
   .order-btn-form {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
