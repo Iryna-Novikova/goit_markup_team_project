@@ -9,7 +9,7 @@
   align-items: flex-start;
   flex-direction: column;
   gap: 40px;
-  padding-bottom: 80px;
+  margin-bottom: 80px;
 }
 .logo-section {
   display: flex;
@@ -59,12 +59,12 @@
 .footer-bottom {
   display: block;
   color: #d4bfc4;
-  gap: 16px;
 }
 .footer-links {
   display: flex;
   align-items: center;
   gap: 8px;
+  margin-bottom: 16px;
 }
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
@@ -88,13 +88,13 @@
   .footer-rights-side {
     gap: 64px;
   }
+  .footer-links {
+    margin-bottom: 0px;
+  }
   .footer-bottom {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-  }
-  .contacts {
-    font-size: 16px;
+    justify-content: space-between;
   }
   .copyright {
     margin-left: auto;
