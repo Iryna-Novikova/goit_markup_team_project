@@ -49,7 +49,7 @@
     line-height: 1;
     letter-spacing: -0.01em;
     text-transform: uppercase;
-    color: #fbfbfb;
+    margin-bottom: 20px;
 }
 
 @media screen and (min-width: 320px) and (max-width:374px) {
@@ -69,7 +69,6 @@
     font-size: 14px;
     line-height: 1.42;
     color: #fbfbfb;
-    margin-top: 20px;
 }
 
 @media only screen and (min-width: 768px) {
