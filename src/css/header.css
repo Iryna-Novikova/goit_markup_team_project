@@ -2,6 +2,7 @@
   position: sticky;
   top: 0;
   background-color: #576f35;
+  z-index: 200;
 }
 
 .header .container {
