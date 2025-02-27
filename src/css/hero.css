@@ -1,6 +1,5 @@
 .hero>.container {
     padding: 0;
-    /* background: #576F35; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,18 +11,8 @@
     background: #576F35;
 }
 
-/* .hero {
-  background: #576F35;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 0;
-} */
 .hero-cont-text {
-    padding: 100px 40px 20px;
-    /* max-width: 375px; */
-    /* min-width: 320px; */
+    padding: 100px 20px 40px;
     margin: 0 auto;
     width: 100%;
 }
@@ -44,7 +33,6 @@
         justify-content: space-between;
         flex-direction: column;
         gap: 24px;
-        /* max-width: 768px; */
     }
 }
 
@@ -99,8 +87,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* min-width: 320px; */
-    /* max-width: 375px; */
     width: 100%;
     min-height: 372px;
     margin: 0 auto;
@@ -119,7 +105,6 @@
 @media only screen and (min-width: 768px) {
     .hero-div-images {
         background-image: url(/img/hero/barrow-tablet-1x-min.webp);
-        /* max-width: 768px; */
         width: 100%;
         min-height: 536px;
     }
