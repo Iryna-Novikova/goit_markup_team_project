@@ -1,5 +1,5 @@
 footer {
-  background-color: #652d3c;
+  background-color: #7a3145;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -90,6 +90,9 @@ footer {
   }
   .footer-links {
     margin-bottom: 0px;
+  }
+  .footer-nav-list {
+    gap: 24px;
   }
   .contacts {
     font-size: 16px;
