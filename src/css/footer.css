@@ -31,14 +31,6 @@ footer {
   flex-direction: column;
   gap: 40px;
 }
-/* .footer-nav {
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 1;
-  letter-spacing: -0.01em;
-  text-transform: uppercase;
-  white-space: nowrap;
-} */
 .footer-nav-list {
   display: flex;
   align-items: flex-start;
@@ -145,7 +137,7 @@ footer {
 .footer-link:focus,
 .contact-link:hover,
 .contact-link:focus {
-  color: #576f35;
+  color: #3cbc81;
 }
 
 /* Анімація логотипу */
@@ -155,7 +147,7 @@ footer {
 
 .logo-svg:hover {
   transform: scale(1.1);
-  fill: #576f35;
+  fill: #3cbc81;
 }
 
 /* Підсвітка тексту для посилань у футері */
@@ -173,7 +165,7 @@ footer {
   bottom: -2px;
   width: 0;
   height: 2px;
-  background-color: #576f35;
+  background-color: #3cbc81;
   transition: width 0.3s ease;
 }
 
@@ -189,6 +181,6 @@ footer {
 
 .footer-link:hover,
 .contact-link:hover {
-  color: #576f35;
+  color: #3cbc81;
   transform: none;
 }
